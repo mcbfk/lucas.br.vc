@@ -1,0 +1,39 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bs-body-bg: #e9ecef;
+}
+
+body {
+  font-family: "Open Sans", sans-serif,
+  "fontAwesome";
+  color: #6c757d;
+  background-color: #e9ecef;
+}
+
+a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}

@@ -1,0 +1,21 @@
+# Segredos
+site12/.env
+.env
+.env.*
+
+# Dependencias gerenciadas por gerenciador de pacotes
+site12/vendor/
+
+# Artefatos do cPanel / lixo de backup
+/config
+/git/
+/cgi-bin/
+/lucas.br.vc/
+/lucas.br.vc_new/
+.ftpquota
+
+# Logs e temporarios
+*.log
+/access-logs/
+/logs/
+/tmp/

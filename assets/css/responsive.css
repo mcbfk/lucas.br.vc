@@ -1,0 +1,248 @@
+/*--------------------------------------------------------------
+# media
+--------------------------------------------------------------*/
+
+@media screen and (min-width: 1400px) {
+  #hero .container {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  #hero {
+    text-align: center;
+  }
+
+  #hero h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+@media screen and (max-width: 991px) { 
+  #modalPentest .btn-close, #detailedModal .btn-close {
+    right: 30px;
+  }
+
+  .map-iframe {
+    height: auto;
+  }
+
+  .contact .info .address {
+    display: block;
+  }
+  .contact .info.active {
+    padding: 75px 20px 30px 70px;
+  }
+
+  .map-container {
+    position: relative;
+    left: 0;
+    margin-left: 0;
+  }
+  
+  .map-iframe {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  #modalPentest {
+    padding-top: 125px;
+  }
+  #modalPentest .btn-close, #detailedModal .btn-close {
+    top: 30px;
+  }
+
+  .contact .info .box {
+    margin-left: 40px;
+  
+  }  
+
+  #whatsapp {
+    right: 50px!important;
+  }
+
+  .floating-wpp-button {
+    width: 70px!important;
+    height: 70px!important;
+    background-color: #007bff!important;
+  }
+  
+  .floating-wpp .floating-wpp-popup.active {
+    bottom: 78px!important;
+  }
+
+  #hero img {
+    margin-left: 0;
+  }
+
+  #hero .container {
+    position: relative;
+    text-align: right;
+  }
+
+  #hero .container .slogan {
+    padding-right: 30px;
+  }
+
+  #hero .video1 { 
+    margin-left: 0;
+    width: 90%;
+  } 
+  
+  .skills .container .professionalSkills {
+    margin-top: 40px;
+  }
+  
+  .contact .info {
+    width: auto;
+    padding: 70px 20px 30px 0px;
+  }
+
+  .contact .info.active {
+    width: 400px;
+    padding: 70px 20px 30px 120px;
+  }
+  
+  
+  .contact .info .avatar2 {
+    top: 25px;
+    right: 70px;
+    left: auto;
+    width: 70px;
+    height: 70px;
+    transform: scaleX(-1);
+  }
+
+  .contact .info .avatar2.active {
+    width: 100px;
+    height: 100px;
+    border-radius: 60px 60px 0 60px;
+  }
+  
+  /*--------------------------------------------------------------
+  # Disable aos animation delay on mobile devices
+  --------------------------------------------------------------*/
+ 
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
+
+@media screen and (max-height: 740px) {
+  #modalPentest {
+    padding-top: 250px;
+  }
+
+  #modalPentest .btn-close, #detailedModal .btn-close {
+    top: 15px;
+  }
+}
+
+@media screen and (max-width: 481px) {
+
+  #whatsapp {
+    right: 30px!important;
+  }
+
+  .floating-wpp-button {
+    width: 50px!important;
+    height: 50px!important;
+    background-color: #007bff!important;
+  }
+  
+  .floating-wpp .floating-wpp-popup.active {
+    bottom: 58px!important;
+  }
+
+  #hero .container .slogan {
+    position: absolute;
+    top: 50%; 
+    left: 60%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+  }
+
+  #hero .sociais {
+    margin: 40px auto;
+  }
+
+  #hero h1, #hero p {
+    text-align: center;
+  }
+
+  .about .container .infos ul li {
+    word-break: break-all;
+  }
+
+  .contact .info {
+    width: 100%;
+    padding: 70px 20px 30px 30px;
+  }
+  
+  .contact .info p {
+    word-break: break-all;
+  }
+
+  .contact .info .box {
+    width: 100%;
+    margin-left: auto;
+  }
+  
+  .contact .info .box.active {
+    padding: 70px 20px 30px 20px;
+  }
+
+  .contact .info .avatar2 {
+    right: 20px;
+  }
+
+  .contact .info .avatar2.active {
+    width: 70px;
+    height: 70px;
+  }
+
+  .contact .info.active {
+    padding: 0;
+  }
+
+  .contact .info .map-container, .map-iframe {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .modal .imgs {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  #modalPentest {
+    padding-top: 160px;
+  }
+
+  #modalPentest .btn-close, #detailedModal .btn-close {
+    top: 12px;
+  }
+
+  .contact .info {
+    width: 100%;
+    padding: 70px 20px 30px 15px;
+  }
+
+  .contact .info .avatar2.active {
+    transform: scaleX(1);
+    right: auto;
+    top: 20px;
+    left: 20px;
+    width: 70px;
+    height: 70px;
+  }
+}
+

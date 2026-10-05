@@ -1,0 +1,147 @@
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about {
+  padding: 60px 15px;
+}
+
+.about .container {
+  background: rgba(79, 79, 79,0.3);
+  border-radius: 20px;
+  padding: 32px 50px 40px 50px;
+  box-shadow: 0px 0px 4px 1px #007bff;
+}
+
+.about .avatar {
+  margin-right: 20px;
+  background-color: rgba(0, 128, 0, 0.6);
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+
+.about .avatarImg {
+  width: 154px;
+  height: 154px;
+  border-radius: 100px;
+  border: 2px solid #007bff;
+}
+
+.about .nickname {
+  display: flex;
+  height: fit-content;
+  border-bottom: 2px solid #007bff;
+  cursor: pointer;
+}
+
+.about .nickname p {
+  color: #FFF;
+  margin-right: 6px;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+.about .nickname span {
+  font-weight: bold;
+}
+
+.about .tel {
+  padding: 0 6px 0 0;
+  border-bottom: 2px solid #007bff;
+}
+
+.about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #007bff;
+}
+
+.about .content h4 {
+  color: #007bff;
+  padding-bottom: 1rem;
+  font-weight: 600;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.about .content ul strong {
+  margin-right: 10px;
+  color: #007bff;
+}
+
+.about .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #007bff;;
+  line-height: 0;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+.about .content .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  margin-bottom: 20px;
+} 
+
+.about .content .card {
+  background-color: rgba(0, 128, 0, 0.6);
+  border-radius: 10px;
+  padding: 20px;
+  color: #FFF;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+} 
+
+.about .content .card:hover {
+  transform: scale(1.1);
+}
+
+.about .content .sociais {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.about .content .sociais a {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;  
+  background-color: rgba(0, 123, 255, 0.6);
+  border-radius: 10px;
+  padding: 20px;
+  gap: 10px;
+  color: #FFF;
+  transition: transform 0.3s ease;
+}
+
+.about .content .sociais a:hover {
+  transform: scale(1.1);
+}
+
+
+.about .content .sociais img {
+  width: 40px;
+}
+
+.about .container .infos ul li {
+  flex-wrap: wrap;
+}
+
+.about .container .content .download img {
+  width: 40px;
+}
+
+

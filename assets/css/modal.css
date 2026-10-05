@@ -1,0 +1,409 @@
+
+
+.bs-popover-auto.popover {
+  z-index: 9999;
+}
+
+.modal {
+  z-index: 9998;
+}
+
+.modal h1 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #007bff;
+}
+
+.modal h2 {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 26px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.modal p {
+  padding: 0 20px;
+}
+
+
+.modal .modal-text {
+  margin: 20px 0;
+}
+
+.modal .modal-url {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.modal strong {
+  margin-right: 10px;
+  color: #007bff;
+}
+
+.modal i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #6c757d;
+  line-height: 0;
+}
+
+.modal span {
+  font-weight: bold;
+  word-break: break-all;
+}
+
+.modal-header {
+  padding: 10px 40px;
+}
+
+.modal-footer {
+  padding: 20px;
+}
+
+.modal-content {
+  background-color: #000;
+}
+
+.modal-body {
+  padding: 30px;
+}
+
+.modal .btn-close {
+  background-color: #007bff;
+  opacity: 0.9;
+}
+
+.modal .imgs img {
+  height: 200px;
+}
+
+#modalFigma .img1 {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.modal .modal-gif {
+  border-radius: 8px!important;
+  width: 100%!important;
+  height: 100%!important;
+}
+
+.modal .imgs {
+  max-width: 355px;
+  margin: 0 auto;
+}
+
+
+.modal-content, .modal-header, .modal-body, .modal-footer {
+  border: 1px solid #007bff;
+}
+
+.modal-footer a {
+  background-color: transparent;
+  padding: 16px 30px;
+  font-size: 18px;
+  color: #007bff;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 2px solid #007bff;
+  transition: transform 0.2s;
+}
+
+.modal-footer a:hover {
+  transform: scale(1.05);
+}
+
+.modal .technologies {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.technologies .logoImgs {
+  display: flex;
+  gap: 5px;
+}
+
+.technologies .logoImgs img {
+  width: 40px;
+}
+
+#modalPentest, #detailedModal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 1);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#detailedModal .boxText {
+  text-align: center;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+#detailedModal .buttonBudget {
+  max-width: 350px;
+  margin: 0 auto;
+  border: none;
+  font-weight: 900;
+  border-radius: 10px;
+  padding: 20px 40px;
+  color: #007bff;
+  box-shadow: 0px 0px 4px 1px #007bff;
+  background-color: rgba(0, 128, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+#detailedModal .buttonBudget:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  background-color: #007bff;
+  color: #ffffff;
+  border: 3px solid #007bff;
+}
+
+#detailedModal .buttonBudget:active {
+  transform: scale(1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o modal de pentest */
+#detailedModal {
+  font-family: "Open Sans", sans-serif;
+}
+
+#detailedModal h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+#detailedModal p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #6c757d;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.pentest-image {
+  border: none !important;
+  box-shadow: 0 8px 25px rgba(0, 123, 255, 0.15) !important;
+  border-radius: 12px;
+  margin: 25px auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, rgba(0, 123, 255, 0.1), rgba(108, 117, 125, 0.1));
+  padding: 15px;
+  border: 2px solid rgba(0, 123, 255, 0.2);
+}
+
+.pentest-image:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 123, 255, 0.25) !important;
+  border-color: rgba(0, 123, 255, 0.4);
+}
+
+/* Estilo para quando a imagem está vazia */
+.pentest-image[src=""] {
+  display: none;
+}
+
+/* Container do texto visual com estilo elegante */
+#pentestVisual {
+  text-align: center;
+  margin: 30px 0;
+  padding: 30px;
+  background: linear-gradient(135deg, rgba(0, 123, 255, 0.05), rgba(108, 117, 125, 0.05));
+  border-radius: 15px;
+  border: 1px solid rgba(0, 123, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+#pentestVisual:empty {
+  display: none;
+}
+
+/* Estilos para o conteúdo visual do pentest */
+.pentest-visual-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.pentest-icon {
+  font-size: 4rem;
+  color: #007bff;
+  margin-bottom: 10px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.pentest-type-badge {
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.pentest-type-badge.black-box {
+  background: linear-gradient(135deg, #2c3e50, #34495e);
+  color: white;
+}
+
+.pentest-type-badge.grey-box {
+  background: linear-gradient(135deg, #7f8c8d, #95a5a6);
+  color: white;
+}
+
+.pentest-type-badge.white-box {
+  background: linear-gradient(135deg, #ecf0f1, #bdc3c7);
+  color: #2c3e50;
+}
+
+.pentest-visual-content h3 {
+  color: #2c3e50;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+}
+
+.pentest-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.feature-tag {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0, 123, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.feature-tag:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
+}
+
+.error-message {
+  color: #dc3545;
+  font-weight: 500;
+  padding: 20px;
+  background: rgba(220, 53, 69, 0.1);
+  border-radius: 10px;
+  border: 1px solid rgba(220, 53, 69, 0.2);
+}
+
+#modalPentest button {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  padding: 20px
+}
+
+#modalPentest .option {
+  background-color: rgba(240, 255, 240, 0.1);
+  background-size: cover!important;
+  background-position: center!important;
+  background-repeat: no-repeat!important;
+  text-align: center;
+  padding: 70px 20px 80px 20px;
+  transition: all ease-in-out 0.3s;
+  box-shadow: 0px 0px 4px 1px #007bff;
+  border-radius: 8px;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+
+#modalPentest .btn-close, #detailedModal .btn-close {
+  position: absolute;
+  top: 40px;
+  right: 100px;
+  padding: 20px;
+}
+
+.pentest-image {
+  width: 40%;
+  height: 200px;
+  border-radius: 8px;
+  opacity: 0.8;
+  box-shadow: 0 -4px 12px rgba(0, 200, 0, 0.4), 0 6px 12px rgba(0, 200, 0, 0.4);
+}
+
+#pentestDescription {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.hoverEffect {
+  transition: opacity 0.3s ease, transform 0.3s ease-in-out;
+}
+
+.hoverEffect:hover {
+  transform: scale(1.05);
+  opacity: 1
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.modalPentest {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  max-width: 80%;
+  max-height: 80%;
+  overflow-y: auto;
+}
+
+.modalPentest.show {
+  display: block;
+}

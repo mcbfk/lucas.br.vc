@@ -1,0 +1,26 @@
+/* popover */
+
+.technology-container .img-fluid {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.technology-container .technology-name {
+  font-size: 14px;
+}
+
+
+.popover, .popover-body {
+  background-color: rgba(0,0,0,0.85);
+  color: #007bff;
+  border-radius: 10px;
+  border: 1px solid #007bff;
+  box-shadow: 0px 0px 12px 2px #007bff;
+}
+
+.popover-arrow::after {
+  border-bottom-color: rgba(0,0,0,0.6)!important;
+  border-top-color: rgba(0,0,0,0.6)!important;
+}

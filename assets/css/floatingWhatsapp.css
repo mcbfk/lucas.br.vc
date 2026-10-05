@@ -1,0 +1,71 @@
+/* whatsapp */
+#whatsapp {
+  z-index: 999;
+  position: fixed;
+  bottom: 80px;
+  right: 80px!important;
+  animation: pulseAnimation 3s ease-in-out infinite;
+}
+
+@keyframes pulseAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.floating-wpp .floating-wpp-popup.active {
+  border: 1px solid #007bff;
+}
+
+.floating-wpp .floating-wpp-input-message textarea {
+  border: 1px solid #007bff!important;
+  margin: 10px 0 12px 0!important;
+  padding: 6px 14px 14px!important;
+  outline: none!important;
+}
+
+.floating-wpp .floating-wpp-input-message textarea:hover {
+  box-shadow: 0px 0px 4px 1px #007bff;
+}
+
+.floating-wpp .floating-wpp-input-message textarea::-webkit-scrollbar {
+  width: 14px;
+}
+
+.floating-wpp .floating-wpp-input-message textarea::-webkit-scrollbar-track {
+  background-color: #1C1C1C; 
+}
+.floating-wpp .floating-wpp-input-message textarea::-webkit-scrollbar-thumb {
+  background-color: #007bff; 
+}
+
+.floating-wpp .floating-wpp-input-message textarea::-webkit-scrollbar-thumb:hover {
+  background: #0056b3; 
+}
+
+.floating-wpp .floating-wpp-popup.active, .floating-wpp-input-message, .floating-wpp-input-message textarea {
+  background-color: #000!important;
+  color: #007bff!important;
+}
+
+.floating-wpp-button {
+  width: 80px!important;
+  height: 80px!important;
+  background-color: #007bff!important;
+}
+
+.floating-wpp .floating-wpp-popup.active {
+  bottom: 88px!important;
+}
+
+.floating-wpp-head {
+  border-bottom: 1px solid #007bff;
+  padding: 6px 20px!important;
+  margin: 0 -20px -10px!important;
+  background-color: #0056b3!important;

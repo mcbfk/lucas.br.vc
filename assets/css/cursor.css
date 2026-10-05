@@ -1,0 +1,84 @@
+/* Cursor Personalizado com Efeito Trail - Tons de Azul */
+
+/* Cursor padrão personalizado */
+body {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="%23007bff" opacity="0.8"/><circle cx="10" cy="10" r="4" fill="white"/></svg>'), auto;
+}
+
+/* Cursor para elementos clicáveis */
+a, button, .btn, .nav-link, .mobile-nav-toggle, .clickable, [role="button"] {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="%23007bff"/><circle cx="12" cy="12" r="6" fill="white"/><circle cx="12" cy="12" r="2" fill="%23007bff"/></svg>'), pointer;
+}
+
+/* Cursor para elementos de texto */
+input, textarea, [contenteditable] {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><rect x="8" y="2" width="2" height="16" fill="%23007bff"/><rect x="2" y="8" width="16" height="2" fill="%23007bff"/></svg>'), text;
+}
+
+/* Cursor para elementos que não podem ser clicados */
+.disabled, [disabled] {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="%236c757d" opacity="0.5"/><circle cx="10" cy="10" r="4" fill="%236c757d"/></svg>'), not-allowed;
+}
+
+/* Cursor para aguardar */
+.wait, .loading {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="%23007bff" opacity="0.3"/><circle cx="10" cy="10" r="6" fill="none" stroke="%23007bff" stroke-width="2" stroke-dasharray="4 4"/></svg>'), wait;
+}
+
+/* Efeito Trail do Cursor */
+.cursor-trail {
+    position: fixed;
+    width: 6px;
+    height: 6px;
+    background: #007bff;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    opacity: 0.6;
+    animation: cursorTrail 0.5s ease-out forwards;
+}
+
+@keyframes cursorTrail {
+    0% {
+        transform: scale(1);
+        opacity: 0.6;
+    }
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+/* Trail alternativo com gradiente */
+.cursor-trail-gradient {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background: radial-gradient(circle, #007bff 0%, #0056b3 100%);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9998;
+    opacity: 0.4;
+    animation: cursorTrailGradient 0.8s ease-out forwards;
+}
+
+@keyframes cursorTrailGradient {
+    0% {
+        transform: scale(1);
+        opacity: 0.4;
+    }
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+/* Sobrescrever plugins que podem interferir */
+.glightbox-container,
+.glightbox-container *,
+.gcontainer,
+.gslider,
+.plyr,
+.plyr * {
+    cursor: inherit !important;
+}

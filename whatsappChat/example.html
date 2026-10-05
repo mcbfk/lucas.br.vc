@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="floating-wpp.min.js"></script>
+    <link rel="stylesheet" href="floating-wpp.min.css">
+</head>
+<body>
+    <div id="myDiv"></div>
+  </body>
+  <script type="text/javascript">
+    $(function () {
+      $('#myDiv').floatingWhatsApp({
+        phone: '0000000000',
+        showPopup: "True",
+        popupMmessage: "hey this my first video",
+        headerTilte: "whatsapp chat",
+        message: "great word",   
+        position: "right",
+      });
+    });
+</script>

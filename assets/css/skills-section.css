@@ -1,0 +1,52 @@
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+.skills {
+  padding: 60px 15px;
+}
+
+.skills .container {
+  background: rgba(79, 79, 79,0.3);
+  border-radius: 20px;
+  padding: 32px 50px 40px 50px;
+  box-shadow: 0px 0px 4px 1px #007bff;
+}
+
+.skills .container h3 {
+  color: #007bff;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #007bff;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #f2f3f5;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #007bff;
+}

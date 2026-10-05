@@ -1,0 +1,37 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 15px;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.mobile-nav-toggle {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  #header {
+    width: 300px;
+    border-right: 1px solid #363636;
+    left: -300px;
+  }
+
+  .mobile-nav-toggle {
+    display: block;
+  }
+  
+}
+
+@media (min-width: 993px) {
+  #main {
+    margin-left: 100px;
+  }
+}
