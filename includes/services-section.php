@@ -207,6 +207,22 @@
                 <p>clique para ver mais</p>
             </div>
           </div>
+          <div class="col-md">
+            <div class="icon-box site14" data-bs-toggle="modal" data-bs-target="#modal" 
+            data-title="Site 14" 
+            data-text="Landing page estática que criei para divulgar meus serviços de criação de sites. Feita só com HTML, CSS e JavaScript, sem backend: o formulário de orçamento monta a mensagem e abre o WhatsApp do cliente. Tem hero com efeito de máquina de escrever, portfólio com três demos, tabela de preços, FAQ e contato. Além da landing principal, publiquei três sites de demonstração (barbearia, estética e assistência técnica) para servirem de portfólio." 
+            data-dominio="lucasweb.br.vc" data-gif="./img/gif/site14.gif"
+            data-logo1="./img/logos/html.webp" data-logo2="./img/logos/css.webp" data-logo3="./img/logos/js.webp"
+            data-img1="./img/site14/img1.webp" data-img2="./img/site14/img2.webp" data-img3="./img/site14/img3.webp"
+            data-img4="./img/site14/img4.webp" data-img5="./img/site14/img5.webp" data-img6="./img/site14/img6.webp"
+            data-img7="./img/site14/img7.webp" data-img8="./img/site14/img8.webp">
+              <div class="icon">
+                  <i class="fa-regular fa-play"></i>
+                </div>
+                <h4>site14</h4>
+                <p>clique para ver mais</p>
+            </div>
+          </div>
         </div><!--carousel-->
         <div class="titleServices">
           <h2>Figma</h2>
